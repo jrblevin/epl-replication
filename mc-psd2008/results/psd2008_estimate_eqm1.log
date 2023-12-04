@@ -1,0 +1,394 @@
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'eqn_solved','CSHelpWindow');">Equation solved</a>.
+
+fsolve completed because the vector of function values is near zero
+as measured by the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>, and
+the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'appears_regular','CSHelpWindow');">problem appears regular</a> as measured by the gradient.
+
+<<a href = "matlab: createExitMsg('trustnleqn',1.000000e+00,true,true,'fsolve',2.372415e-08,'default',1.000000e-06,1.324705e-15,'default',1.000000e-03,1.324705e-15,'default',1.000000e-03);">stopping criteria details</a>>
+
+ 
+*********************************************
+Number of starting values: 1
+Starting value weights: 1.00 * initial estimates + 0.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 250
+Weight on noise in initial estimates: c = 0.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.0579]    [-0.0277]    [-0.0158]    [ 0.0277]
+    'theta_C'     [ 0.1120]    [ 0.0425]    [ 0.0294]    [-0.0482]
+    'theta_EC'    [-0.0393]    [-0.0205]    [-0.0270]    [-0.0039]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.0461]    [0.0376]    [0.0368]    [0.0312]
+    'theta_C'     [0.1642]    [0.1061]    [0.0585]    [0.0512]
+    'theta_EC'    [0.0494]    [0.0338]    [0.0116]    [0.0045]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.1743]    [0.1575]    [0.1470]    [0.1339]
+    'theta_C'     [0.3273]    [0.2594]    [0.1742]    [0.1559]
+    'theta_EC'    [0.1755]    [0.1420]    [0.0723]    [0.0517]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'        'EPL'    
+    'Mean'         [    1]    [    1]    [68.7510]    [10.9920]
+    'Median'       [    1]    [    1]    [     70]    [      8]
+    'Std. Dev.'    [    0]    [    0]    [19.2247]    [14.9768]
+    'IQR'          [    0]    [    0]    [     28]    [      2]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [0.4481]    [0.1047]
+    'Conv %'    [    1]    [    1]    [0.9260]    [0.9750]
+
+ 
+*********************************************
+Number of starting values: 1
+Starting value weights: 0.50 * initial estimates + 0.50 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 250
+Weight on noise in initial estimates: c = 0.50
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.1589]    [-0.1244]    [-0.0827]    [ 0.0266]
+    'theta_C'     [ 0.3706]    [ 0.3298]    [ 0.1286]    [-0.0431]
+    'theta_EC'    [-0.4497]    [-0.4488]    [-0.0672]    [ 0.0020]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.5665]    [0.6588]    [0.0648]    [0.0756]
+    'theta_C'     [2.1190]    [2.5194]    [0.1282]    [0.2234]
+    'theta_EC'    [0.3372]    [0.3552]    [0.0251]    [0.0073]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.5248]    [0.5287]    [0.1928]    [0.1617]
+    'theta_C'     [0.9741]    [0.9771]    [0.2526]    [0.2103]
+    'theta_EC'    [0.4997]    [0.5069]    [0.1058]    [0.0570]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'        'EPL'    
+    'Mean'         [    1]    [    1]    [70.0180]    [13.4770]
+    'Median'       [    1]    [    1]    [     72]    [      9]
+    'Std. Dev.'    [    0]    [    0]    [20.9147]    [17.2649]
+    'IQR'          [    0]    [    0]    [     36]    [      3]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [0.4024]    [0.1217]
+    'Conv %'    [    1]    [    1]    [0.8920]    [0.9660]
+
+ 
+*********************************************
+Number of starting values: 5
+Starting value weights: 1.00 * initial estimates + 0.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 250
+Weight on noise in initial estimates: c = 0.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.0579]    [-0.0277]    [-0.0127]    [ 0.0295]
+    'theta_C'     [ 0.1120]    [ 0.0425]    [ 0.0252]    [-0.0516]
+    'theta_EC'    [-0.0393]    [-0.0205]    [-0.0255]    [-0.0034]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.0461]    [0.0376]    [0.0359]    [0.0325]
+    'theta_C'     [0.1642]    [0.1061]    [0.0566]    [0.0552]
+    'theta_EC'    [0.0494]    [0.0338]    [0.0113]    [0.0046]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.1743]    [0.1575]    [0.1454]    [0.1354]
+    'theta_C'     [0.3273]    [0.2594]    [0.1717]    [0.1592]
+    'theta_EC'    [0.1755]    [0.1420]    [0.0715]    [0.0522]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'         'EPL'    
+    'Mean'         [    1]    [    1]    [344.4090]    [68.0140]
+    'Median'       [    1]    [    1]    [     347]    [     53]
+    'Std. Dev.'    [    0]    [    0]    [ 80.5256]    [43.4654]
+    'IQR'          [    0]    [    0]    [     117]    [     18]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [1.9699]    [0.5606]
+    'Conv %'    [    1]    [    1]    [0.8978]    [0.9720]
+
+ 
+*********************************************
+Number of starting values: 5
+Starting value weights: 0.00 * initial estimates + 1.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 250
+Weight on noise in initial estimates: c = 1.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-1.1651]    [-1.1194]    [-0.0130]    [ 0.0235]
+    'theta_C'     [ 2.4078]    [ 2.2980]    [ 0.0258]    [-0.0402]
+    'theta_EC'    [-0.5569]    [-0.5630]    [-0.0258]    [-0.0053]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [2.0856]    [1.9927]    [0.0362]    [0.0307]
+    'theta_C'     [8.2215]    [8.0191]    [0.0578]    [0.0486]
+    'theta_EC'    [0.4804]    [0.5036]    [0.0116]    [0.0044]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [1.2353]    [1.2027]    [0.1457]    [0.1305]
+    'theta_C'     [2.4867]    [2.3974]    [0.1724]    [0.1490]
+    'theta_EC'    [0.6056]    [0.6163]    [0.0718]    [0.0508]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'         'EPL'    
+    'Mean'         [    1]    [    1]    [345.2810]    [71.0030]
+    'Median'       [    1]    [    1]    [     349]    [     56]
+    'Std. Dev.'    [    0]    [    0]    [ 79.3402]    [42.1615]
+    'IQR'          [    0]    [    0]    [     118]    [     19]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [1.9626]    [0.5819]
+    'Conv %'    [    1]    [    1]    [0.8898]    [0.9718]
+
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'eqn_solved','CSHelpWindow');">Equation solved</a>.
+
+fsolve completed because the vector of function values is near zero
+as measured by the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'fcn_tolerance_fsolve','CSHelpWindow');">function tolerance</a>, and
+the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'appears_regular','CSHelpWindow');">problem appears regular</a> as measured by the gradient.
+
+<<a href = "matlab: createExitMsg('trustnleqn',1.000000e+00,true,true,'fsolve',2.372415e-08,'default',1.000000e-06,1.324705e-15,'default',1.000000e-03,1.324705e-15,'default',1.000000e-03);">stopping criteria details</a>>
+
+ 
+*********************************************
+Number of starting values: 1
+Starting value weights: 1.00 * initial estimates + 0.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 1000
+Weight on noise in initial estimates: c = 0.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.0165]    [-0.0050]    [-0.0044]    [ 0.0033]
+    'theta_C'     [ 0.0340]    [ 0.0119]    [ 0.0076]    [-0.0052]
+    'theta_EC'    [-0.0127]    [-0.0061]    [-0.0059]    [-0.0012]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'       
+    'theta_M'     [0.0116]    [0.0107]    [0.0083]    [    0.0059]
+    'theta_C'     [0.0423]    [0.0320]    [0.0106]    [    0.0076]
+    'theta_EC'    [0.0123]    [0.0086]    [0.0018]    [8.0274e-04]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.0863]    [0.0825]    [0.0733]    [0.0593]
+    'theta_C'     [0.1635]    [0.1414]    [0.0812]    [0.0576]
+    'theta_EC'    [0.0891]    [0.0746]    [0.0324]    [0.0220]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'        'EPL'   
+    'Mean'         [    1]    [    1]    [69.0830]    [6.6560]
+    'Median'       [    1]    [    1]    [     70]    [     6]
+    'Std. Dev.'    [    0]    [    0]    [13.5661]    [3.2221]
+    'IQR'          [    0]    [    0]    [     19]    [     1]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [0.5847]    [0.0743]
+    'Conv %'    [    1]    [    1]    [0.9950]    [0.9990]
+
+ 
+*********************************************
+Number of starting values: 1
+Starting value weights: 0.50 * initial estimates + 0.50 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 1000
+Weight on noise in initial estimates: c = 0.50
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.1363]    [-0.0946]    [-0.0708]    [ 0.0320]
+    'theta_C'     [ 0.3246]    [ 0.2723]    [ 0.1023]    [-0.0516]
+    'theta_EC'    [-0.4369]    [-0.4355]    [-0.0447]    [ 0.0116]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.5145]    [0.5746]    [0.0376]    [0.0411]
+    'theta_C'     [1.8796]    [2.1619]    [0.0708]    [0.1343]
+    'theta_EC'    [0.3114]    [0.3290]    [0.0124]    [0.0019]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.5013]    [0.5089]    [0.1305]    [0.0997]
+    'theta_C'     [0.9326]    [0.9268]    [0.1655]    [0.1348]
+    'theta_EC'    [0.4812]    [0.4876]    [0.0675]    [0.0314]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'        'EPL'    
+    'Mean'         [    1]    [    1]    [72.8400]    [11.2560]
+    'Median'       [    1]    [    1]    [     76]    [      8]
+    'Std. Dev.'    [    0]    [    0]    [18.0188]    [13.7997]
+    'IQR'          [    0]    [    0]    [     25]    [      3]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [0.5916]    [0.1476]
+    'Conv %'    [    1]    [    1]    [0.9450]    [0.9790]
+
+ 
+*********************************************
+Number of starting values: 5
+Starting value weights: 1.00 * initial estimates + 0.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 1000
+Weight on noise in initial estimates: c = 0.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-0.0165]    [-0.0050]    [-0.0044]    [ 0.0026]
+    'theta_C'     [ 0.0340]    [ 0.0119]    [ 0.0076]    [-0.0039]
+    'theta_EC'    [-0.0127]    [-0.0061]    [-0.0059]    [-0.0014]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'       
+    'theta_M'     [0.0116]    [0.0107]    [0.0083]    [    0.0058]
+    'theta_C'     [0.0423]    [0.0320]    [0.0106]    [    0.0069]
+    'theta_EC'    [0.0123]    [0.0086]    [0.0018]    [7.8511e-04]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [0.0863]    [0.0825]    [0.0733]    [0.0587]
+    'theta_C'     [0.1635]    [0.1414]    [0.0812]    [0.0564]
+    'theta_EC'    [0.0891]    [0.0746]    [0.0324]    [0.0218]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'         'EPL'    
+    'Mean'         [    1]    [    1]    [355.7760]    [52.9810]
+    'Median'       [    1]    [    1]    [     358]    [     46]
+    'Std. Dev.'    [    0]    [    0]    [ 57.0624]    [25.9124]
+    'IQR'          [    0]    [    0]    [ 80.5000]    [     10]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [2.8547]    [0.6079]
+    'Conv %'    [    1]    [    1]    [0.9616]    [0.9898]
+
+ 
+*********************************************
+Number of starting values: 5
+Starting value weights: 0.00 * initial estimates + 1.00 * noise 
+ 
+CCP Estimation...
+NPL Estimation...
+EPL Estimation...
+Equilibrium: eqm_dgp = 1
+Replications: nsims = 1000
+Observations: nobs = 1000
+Weight on noise in initial estimates: c = 1.00
+ 
+Bias of Estimates
+    'Param'       '1-NPL'      '1-EPL'      'NPL'        'EPL'    
+    'theta_M'     [-1.1697]    [-1.1259]    [-0.0044]    [ 0.0019]
+    'theta_C'     [ 2.4195]    [ 2.3086]    [ 0.0076]    [-0.0027]
+    'theta_EC'    [-0.5485]    [-0.5623]    [-0.0059]    [-0.0016]
+
+ 
+MSE of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'       
+    'theta_M'     [2.0619]    [1.9743]    [0.0083]    [    0.0057]
+    'theta_C'     [8.1497]    [7.7947]    [0.0106]    [    0.0065]
+    'theta_EC'    [0.4488]    [0.4880]    [0.0018]    [7.7355e-04]
+
+ 
+MAD of Estimates
+    'Param'       '1-NPL'     '1-EPL'     'NPL'       'EPL'   
+    'theta_M'     [1.2336]    [1.1985]    [0.0733]    [0.0582]
+    'theta_C'     [2.4856]    [2.3978]    [0.0812]    [0.0552]
+    'theta_EC'    [0.5908]    [0.6072]    [0.0324]    [0.0216]
+
+ 
+Iterations
+    'Param'        '1-NPL'    '1-EPL'    'NPL'         'EPL'    
+    'Mean'         [    1]    [    1]    [359.2620]    [57.9950]
+    'Median'       [    1]    [    1]    [     362]    [     50]
+    'Std. Dev.'    [    0]    [    0]    [ 57.7872]    [29.2108]
+    'IQR'          [    0]    [    0]    [ 82.5000]    [     12]
+
+ 
+Time and Non-Convergence
+    'Param'     '1-NPL'    '1-EPL'    'NPL'       'EPL'   
+    'Time'      [    0]    [    0]    [2.8453]    [0.6559]
+    'Conv %'    [    1]    [    1]    [0.9510]    [0.9872]
+

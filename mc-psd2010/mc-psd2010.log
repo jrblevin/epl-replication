@@ -1,0 +1,70 @@
+time_MLE =
+
+   22.8803
+
+
+mean_MLE =
+
+   -2.0017
+
+
+MSE_MLE =
+
+    0.0017
+
+
+time_EPL =
+
+   31.6587
+
+
+mean_EPL =
+
+   -2.0014
+
+
+MSE_EPL =
+
+    0.0017
+
+
+convfails_EPL =
+
+     0
+
+
+maxits_EPL =
+
+     2
+
+time_NPL =
+
+   97.8933
+
+
+mean_NPL =
+
+   -1.0342
+
+
+MSE_NPL =
+
+    0.9652
+
+
+convfails_NPL =
+
+     0
+
+
+maxits_NPL =
+
+    20
+
+ 
+    'Estimator'    'Mean'       'MSE'   
+    'MLE'          [-2.0017]    [0.0017]
+    'EPL'          [-2.0014]    [0.0017]
+    'NPL'          [-1.0342]    [0.9652]
+
+Elapsed time is 97.905059 seconds.
