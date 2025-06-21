@@ -1,14 +1,15 @@
-# Dearing and Blevins (2024) Replication Files
+# Dearing and Blevins (2025) Replication Files
 
-Dearing and Blevins (2024).
-Efficient and Convergent Sequential Pseudo-Likelihood Estimation of
-Dynamic Discrete Games.
-_Review of Economic Studies_.
+Dearing and Blevins (2025).
+[Efficient and Convergent Sequential Pseudo-Likelihood Estimation of Dynamic Discrete Games][epl].
+_Review of Economic Studies_ 92, 981–1021.
+
+<https://doi.org/10.1093/restud/rdae050>
 
 ## Overview
 
 This repository contains the replication code for all Monte Carlo
-experiments and the Application of Dearing and Blevins (2024).  The
+experiments and the Application of [Dearing and Blevins (2025)][epl].  The
 replication files for each section are contained in separate
 subdirectories.  Here we give a brief overview of the contents of the
 package.
@@ -414,3 +415,6 @@ the replication package: `mc-psd2010/mc-psd2010.log`.
     HUD-USPS ZIP Code Crosswalk data 2021-Q4 [Data set].
     Retrieved May 16, 2023 from the HUD Office of Policy Development and Research (PD&R).
     <https://www.huduser.gov/portal/datasets/usps_crosswalk.html>
+
+
+[epl]: https://jblevins.org/research/epl
